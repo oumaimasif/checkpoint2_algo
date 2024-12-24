@@ -1,0 +1,20 @@
+ALGORITHM Insertrion_tb
+
+VAR
+a, i: Entier;
+tph: string;
+n:tph.lenght;
+
+
+BEGIN
+ for (i=1,i<n, i++)
+{   tph[i]=> a
+     for(j=i-1; j>=0;j--)
+    {
+        if(tph[j]>tph[j+1])
+         swap(tph[j], tph[j+1])
+    }
+     a=> tph[i]
+}
+
+END
